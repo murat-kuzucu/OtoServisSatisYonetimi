@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.WindowsApp",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.Entities", "OtoServisSatis.Entities\OtoServisSatis.Entities.csproj", "{F699C736-B7B1-4135-A7FE-3BCC3CE43843}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.DAL", "OtoServisSatis.DAL\OtoServisSatis.DAL.csproj", "{7DD7EAAA-D0E1-4C68-937C-169122C46F27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OtoServisSatis.BL", "OtoServisSatis.BL\OtoServisSatis.BL.csproj", "{63F36779-C5A6-4570-9EAA-BFDD8189B13C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F699C736-B7B1-4135-A7FE-3BCC3CE43843}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F699C736-B7B1-4135-A7FE-3BCC3CE43843}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F699C736-B7B1-4135-A7FE-3BCC3CE43843}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD7EAAA-D0E1-4C68-937C-169122C46F27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD7EAAA-D0E1-4C68-937C-169122C46F27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD7EAAA-D0E1-4C68-937C-169122C46F27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD7EAAA-D0E1-4C68-937C-169122C46F27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63F36779-C5A6-4570-9EAA-BFDD8189B13C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F36779-C5A6-4570-9EAA-BFDD8189B13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F36779-C5A6-4570-9EAA-BFDD8189B13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F36779-C5A6-4570-9EAA-BFDD8189B13C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
