@@ -30,12 +30,12 @@
         {
             this.dgvMarkalar = new System.Windows.Forms.DataGridView();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.lblId = new System.Windows.Forms.Label();
-            this.txtMarkaAdi = new System.Windows.Forms.TextBox();
-            this.btnEkle = new System.Windows.Forms.Button();
-            this.btnGuncelle = new System.Windows.Forms.Button();
             this.btnSil = new System.Windows.Forms.Button();
+            this.btnGuncelle = new System.Windows.Forms.Button();
+            this.btnEkle = new System.Windows.Forms.Button();
+            this.txtMarkaAdi = new System.Windows.Forms.TextBox();
+            this.lblId = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarkalar)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -65,40 +65,15 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Marka Bilgileri";
             // 
-            // label1
+            // btnSil
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(6, 62);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Marka Adı";
-            // 
-            // lblId
-            // 
-            this.lblId.AutoSize = true;
-            this.lblId.Location = new System.Drawing.Point(177, 62);
-            this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(13, 13);
-            this.lblId.TabIndex = 3;
-            this.lblId.Text = "0";
-            // 
-            // txtMarkaAdi
-            // 
-            this.txtMarkaAdi.Location = new System.Drawing.Point(67, 59);
-            this.txtMarkaAdi.Name = "txtMarkaAdi";
-            this.txtMarkaAdi.Size = new System.Drawing.Size(100, 20);
-            this.txtMarkaAdi.TabIndex = 4;
-            // 
-            // btnEkle
-            // 
-            this.btnEkle.Location = new System.Drawing.Point(6, 108);
-            this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(75, 23);
-            this.btnEkle.TabIndex = 5;
-            this.btnEkle.Text = "Ekle";
-            this.btnEkle.UseVisualStyleBackColor = true;
-            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
+            this.btnSil.Location = new System.Drawing.Point(168, 108);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(75, 23);
+            this.btnSil.TabIndex = 7;
+            this.btnSil.Text = "Sil";
+            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.Click += new System.EventHandler(this.button3_Click);
             // 
             // btnGuncelle
             // 
@@ -110,15 +85,40 @@
             this.btnGuncelle.UseVisualStyleBackColor = true;
             this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
-            // btnSil
+            // btnEkle
             // 
-            this.btnSil.Location = new System.Drawing.Point(168, 108);
-            this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(75, 23);
-            this.btnSil.TabIndex = 7;
-            this.btnSil.Text = "Sil";
-            this.btnSil.UseVisualStyleBackColor = true;
-            this.btnSil.Click += new System.EventHandler(this.button3_Click);
+            this.btnEkle.Location = new System.Drawing.Point(6, 108);
+            this.btnEkle.Name = "btnEkle";
+            this.btnEkle.Size = new System.Drawing.Size(75, 23);
+            this.btnEkle.TabIndex = 5;
+            this.btnEkle.Text = "Ekle";
+            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
+            // 
+            // txtMarkaAdi
+            // 
+            this.txtMarkaAdi.Location = new System.Drawing.Point(67, 59);
+            this.txtMarkaAdi.Name = "txtMarkaAdi";
+            this.txtMarkaAdi.Size = new System.Drawing.Size(100, 20);
+            this.txtMarkaAdi.TabIndex = 4;
+            // 
+            // lblId
+            // 
+            this.lblId.AutoSize = true;
+            this.lblId.Location = new System.Drawing.Point(177, 62);
+            this.lblId.Name = "lblId";
+            this.lblId.Size = new System.Drawing.Size(13, 13);
+            this.lblId.TabIndex = 3;
+            this.lblId.Text = "0";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 62);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Marka Adı";
             // 
             // MarkaYonetimi
             // 
@@ -128,6 +128,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvMarkalar);
             this.Name = "MarkaYonetimi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Marka Yönetimi";
             this.Load += new System.EventHandler(this.MarkaYonetimi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvMarkalar)).EndInit();

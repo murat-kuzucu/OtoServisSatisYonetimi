@@ -128,6 +128,7 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.dgvRoller);
             this.Name = "RolYonetimi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Rol Yönetimi";
             this.Load += new System.EventHandler(this.RolYonetimi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvRoller)).EndInit();
