@@ -22,8 +22,9 @@ namespace OtoServisSatis.WindowsApp
         MarkaManager markaManager = new MarkaManager();
         
         void Yukle()
-        {
-            dgvAraclar.DataSource = manager.GetAll();
+        { 
+
+        dgvAraclar.DataSource = manager.GetAll();
             cbMarka.DataSource = markaManager.GetAll();
             cbMarka.DisplayMember = "Adi";
             cbMarka.ValueMember = "Id";
